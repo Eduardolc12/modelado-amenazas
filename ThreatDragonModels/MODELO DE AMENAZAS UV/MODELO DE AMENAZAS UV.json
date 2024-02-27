@@ -1,0 +1,35 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "MODELO DE AMENAZAS UV",
+    "owner": "UV",
+    "description": "El sitio web de la biblioteca universitaria es una plataforma en línea diseñada para ofrecer servicios a bibliotecarios y usuarios de la biblioteca, incluyendo estudiantes y personal universitario. Esta implementación inicial del sitio web presenta una funcionalidad limitada. El sistema cuenta con tres tipos de usuarios:\n\nEstudiantes: Tienen acceso a funciones básicas como iniciar sesión y buscar libros en el catálogo de la biblioteca.\n\nPersonal: Al igual que los estudiantes, pueden iniciar sesión y buscar libros en el catálogo. Además, tienen la capacidad de solicitar libros disponibles.\n\nBibliotecarios: Tienen privilegios adicionales, incluyendo la capacidad de iniciar sesión, agregar nuevos libros al sistema, agregar usuarios, y buscar libros en el catálogo.\n\nEl enfoque principal de esta implementación es proporcionar a los usuarios una interfaz para acceder a los recursos de la biblioteca de manera fácil y rápida, con funcionalidades básicas para satisfacer las necesidades iniciales de búsqueda y solicitud de libros.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Diagrama de flujo de datos para el sitio web de la biblioteca universitaria",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": []
+      },
+      {
+        "id": 1,
+        "title": "Diagrama de flujo de datos de inicio de sesión del usuario para el sitio web de la biblioteca universitaria",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "Eduardo Lopez Chacon",
+    "threatTop": 0
+  }
+}
