@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+      <meta name="robots" content="noindex, nofollow">
+      <meta charset="utf-8" />
+      <base href="/">
+      <title>bibliotecauv - Inicio </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+      <link rel="apple-touch-icon" href="https://df5kbf1hky40.cloudfront.net/static/img/favicon/60.183308caad6a.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="https://df5kbf1hky40.cloudfront.net/static/img/favicon/76.1aab6f436992.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="https://df5kbf1hky40.cloudfront.net/static/img/favicon/120.d865e860b8c8.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="https://df5kbf1hky40.cloudfront.net/static/img/favicon/152.3a61f0130751.png">
+      <link rel="icon" type="image/x-icon" sizes="32x32" href="https://df5kbf1hky40.cloudfront.net/static/img/favicon/favicon-32x32.c6ac6bf7e856.png" />
+      <link rel="icon" type="image/x-icon" sizes="16x16" href="https://df5kbf1hky40.cloudfront.net/static/img/favicon/favicon-16x16.09c7bd474cd7.png" />
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-touch-fullscreen" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="default">
+      <meta content="" name="description" />
+      <meta content="" name="author" />
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/plugins/bootstrap/css/bootstrap.min.4a781b2ccd93.css" rel="stylesheet" type="text/css" />
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/plugins/font-awesome/css/font-awesome.7d46203b9170.css" rel="stylesheet" type="text/css" />
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery-scrollbar/jquery.scrollbar.9873d0579300.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/plugins/select2/css/select2.min.d44571114a90.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/plugins/switchery/css/switchery.min.3d5c5f2d195c.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/css/pages-icons.ef006736f4b1.css" rel="stylesheet" type="text/css">
+      <link href="https://df5kbf1hky40.cloudfront.net/static/library_center/css/generic.ed2ec515890a.css" rel="stylesheet" type="text/css" media="screen" />
+      
+      <link href="https://df5kbf1hky40.cloudfront.net/static/global/plugins/sliderpro/css/slider-pro.min.25c3587d5077.css" rel="stylesheet" type="text/css" />
+      <link class="main-stylesheet" href="https://df5kbf1hky40.cloudfront.net/static/global/css/corporate.d7dc9d1538c1.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="fixed-header horizontal-menu horizontal-app-menu dashboard">
+      
+      <!-- START HEADER -->
+      <input type="hidden" class="hidden" name="quicksearch_url" value="https://search.elibro.net/beta/quicksearch/">
+<input type="hidden" class="hidden" name="filteredsearch_url" value="https://search.elibro.net/beta/filteredsearch/">
+<input type="hidden" class="hidden" name="advancedsearch_url" value="https://search.elibro.net/beta/advancedsearch/">
+<input type="hidden" class="hidden" name="content_url" value="https://search.elibro.net/beta/elasticsearch/">
+<input type="hidden" class="hidden" name="filters_url" value="https://search.elibro.net/beta/search_filters/">
+<input type="hidden" class="hidden" name="themesearch_url" value="https://search.elibro.net/beta/themesearch/">
+<input type="hidden" class="hidden" name="search_token" value="d6c1240daf32d499bee07acd1dd3f46e64119e5a">
+<input type="hidden" class="hidden" name="channel_collections" value="ELC004,ELC052">
+<input type="hidden" class="hidden" name="subscribed_titles" value="{&quot;ELC042&quot;: [108489, 108515, 216307, 234678, 225751, 225767, 188321, 45360, 42485, 108474, 53915, 53916, 113376, 74117, 108494, 37847, 108506, 108491, 107636, 52537, 231033, 38065, 113085, 196174, 53936, 220593, 120342, 37894, 108516, 216298, 53910, 45323, 225741, 223513, 136622, 91524, 53880, 74139, 107815, 85092, 113179, 220600, 45332, 37999, 74129, 45330, 37937, 57168, 85080, 216312, 220592, 53845, 190698, 223507, 108488, 108401, 74103, 74102, 39531, 113003, 45301, 53932, 225786, 136618, 220598, 85088, 108439, 225757, 45304, 223502, 37898, 53897, 188322, 113094, 53820, 37892, 85343, 45284, 53830, 53902, 53844, 234675, 108475, 45354, 113180, 216304, 136610, 216308, 45319, 231037, 190692, 225769, 38003, 53870, 39544, 38010, 39549, 45314, 39561, 45321, 37939, 112999, 85110, 53921, 61041, 38083, 108501, 37948, 74091, 53899, 53878, 225789, 113372, 57155, 45325, 45290, 225750, 52529, 225735, 221562, 216278, 216288, 113176, 53905, 74138, 108409, 216309, 45283, 52538, 53904, 37857, 45302, 45357, 53860, 225778, 231035, 108497, 107745, 74108, 57147, 74143, 52535, 37869, 38004, 39542, 225739, 85083, 53914, 53869, 225748, 45313, 195601, 113183, 74114, 231036, 37980, 112890, 45346, 37891, 38038, 233254, 221563, 216274, 52543, 216262, 125925, 57151, 85081, 112892, 107460, 196175, 38087, 37922, 53919, 112891, 230182, 37989, 216244, 216241, 53900, 37997, 37956, 37920, 39538, 91832, 91813, 216290, 37875, 223505, 42487, 108404, 74148, 225736, 113100, 37973, 37881, 39567, 107793, 38086, 220599, 53847, 45316, 113242, 188320, 107543, 195602, 85169, 45291, 225761, 38039, 74146, 53938, 233253, 188317, 216293, 74157, 53833, 225753, 39563, 53856, 113088, 39562, 38100, 188319, 108450, 85160, 74116, 74162, 225738, 74147, 220591, 37959, 37941, 108467, 38056, 53858, 45341, 216294, 225743, 113547, 45356, 37993, 225788, 108503, 37874, 229824, 225731, 45320, 221162, 108483, 216242, 38040, 221560, 112930, 45337, 38007, 53852, 37862, 45349, 234679, 107237, 37906, 217727, 107439, 107758, 45350, 195594, 107591, 107689, 45322, 74133, 108476, 107744, 37996, 225745, 223500, 37981, 223501, 45353, 225733, 216281, 216284, 45288, 45312, 38088, 216305, 53841, 74136, 225752, 107544, 216302, 72388, 108469, 136625, 45342, 113001, 234676, 69493, 74149, 45339, 108451, 53834, 53877, 108496, 108505, 85090, 113083, 45285, 74078, 190696, 220596, 74104, 216253, 107817, 108513, 53931, 45359, 108447, 74124, 113261, 69495, 113249, 37890, 38000, 69494, 38037, 74119, 195603, 113093, 53891, 108417, 37976, 53901, 39540, 232147, 45336, 113243, 113182, 91812, 108459, 53918, 91811, 108460, 69492, 45292, 190697, 53873, 57150, 52532, 39533, 223510, 107398, 221158, 45286, 230180, 53843, 37933, 225755, 37978, 45327, 216303, 45335, 220595, 108453, 38066, 37905, 223512, 53929, 45333, 37899, 45311, 57159, 53853, 85082, 216295, 225740, 74112, 108514, 108495, 37883, 37962, 74100, 225732, 113079, 37866, 53827, 37923, 37934, 37870, 230189, 112893, 113257, 85120, 217730, 108490, 74110, 45351, 53825, 113080, 216300, 223504, 230177, 37915, 37979, 120343, 108466, 108481, 53846, 45294, 113095, 216292, 45345, 45326, 225729, 225737, 216289, 38022, 53907, 38024, 194754, 136608, 225730, 216313, 225747, 230183, 74096, 57152, 225785, 45281, 38053, 37856, 220594, 113178, 74155, 221166, 107551, 39566, 45348, 74113, 57171, 38008, 37936, 57169, 45309, 74137, 53906, 120344, 225756, 108512, 216259, 52542, 52531, 53837, 57165, 57162, 45310, 45344, 37958, 37908, 221561, 74097, 91821, 107725, 232148, 53874, 53896, 53879, 225768, 57154, 53940, 91525, 113102, 53890, 53882, 230179, 37855, 85159, 45334, 45306, 53822, 108502, 53913, 37931, 108482, 37897, 216280, 108468, 108449, 91516, 108485, 230178, 216311, 52540, 53832, 53930, 216297, 225771, 216273, 57170, 45289, 52530, 57163, 74130, 113260, 53872, 37928, 108500, 107775, 216279, 230185, 37910, 120341, 37863, 37977, 225772, 57148, 45307, 38036, 37889, 37929, 53926, 53883, 57149, 113084, 113181, 108480, 53887, 108504, 37921, 41308, 107536, 45282, 108440, 38064, 85091, 74085, 37957, 37885, 113184, 38006, 108487, 53854, 223514, 216269, 190695, 231034, 229825, 225744, 52533, 230188, 45343, 108486, 37877, 217729, 38002, 221163, 53937, 85339, 113076, 37943, 73939, 108402, 53850, 37930, 53909, 188316, 45297, 37844, 53911, 217728, 53886, 74081, 230181, 113535, 216314, 225746, 225766, 74080, 225742, 136620, 234677, 108507, 223506, 118100, 38001, 216296, 188318, 37942, 37887, 37871, 74154, 85167, 53821, 107324, 37849, 53895, 225749, 225783, 74163, 216254, 216240, 108492, 108448, 53903, 230187, 69491, 216310, 74098, 112889, 53826, 113175, 55577, 38054, 57153, 219201, 37912, 53849, 74127, 216255, 113002, 225728], &quot;ELC039&quot;: [107507, 107318, 107451, 107452, 107665, 107484, 107757, 107724, 107749, 107508, 108508, 107247, 107377, 107230, 74128, 107280, 107668, 53939, 107512, 107756, 107761, 107393, 107821, 107532, 107640, 57160, 74167, 107294, 107553, 37925, 107308, 107569, 38020, 108408, 52536, 107273, 107231, 107233, 107340, 37961, 37938, 107483, 107807, 37964, 107537, 107411, 107448, 39568, 107437, 39539, 107343, 37845, 107816, 107662, 37969, 112998, 107232, 37848, 85342, 151765, 107638, 107654, 39532, 74094, 113000], &quot;ELC005&quot;: [105130, 93288, 93306, 93244, 85098, 40015, 127054, 230647, 136743, 39970, 127052, 93227, 93207, 218351, 40051, 93196, 220384, 40178, 194761, 39914, 118075, 40046, 220382, 118096, 170242, 230645, 93281, 39916, 85099, 118093, 220385, 39973, 129636, 93279, 40175, 93309, 40017, 40040, 93266, 230646, 118083, 105129, 39940, 215597, 229129, 40036, 40052, 39982, 40003, 129637, 118076, 118304, 118077, 118097, 189394, 40176, 218352, 93295, 93237, 108523, 118079, 190882, 40167, 93271, 170241, 93283, 108521, 105137, 93280, 232916, 40160, 222204, 118078, 220389, 40006, 93240, 136745, 93304, 39990, 77059, 40177, 39924, 232917, 40021, 93255, 40022, 93289, 220386, 39918, 93239, 93205, 91828, 118089, 93254, 136742, 93303, 118099, 40053, 40155, 93230, 105132, 40158, 93268, 220391, 118085, 93250, 127053, 93242, 120157, 136741, 220392, 118095, 228691, 70684, 39980, 93210, 118086, 215596, 229128, 93265, 93305, 40180, 220388, 93229, 40174, 40179, 93243, 220390, 40050, 40182, 93214, 136740, 93204, 222206, 118073, 40045, 105135, 118092, 39927, 220383, 118098, 39952, 93274, 118091, 93246, 40018, 93293, 118074, 118088, 118082, 228688, 85097, 93302, 127056, 105133, 93284, 39992, 228687, 118084, 40047, 93238, 40056, 85096, 232915, 40181, 39925, 40024, 39991, 40171, 93308, 118087, 113644, 93245, 118072, 118090, 40164, 40039, 39953, 40163, 93216, 220393, 93299, 93286, 118094, 93264, 40173, 118081, 93275, 39954, 40162, 85095, 127055, 40168, 118080, 40048, 229130, 40037, 204458, 105136, 40038, 108519, 222208, 40025, 190881, 228690, 105134, 222205, 40002, 93301, 93278, 228689, 220387, 40027, 93267, 120062, 93233, 105131, 136744, 93248, 77065], &quot;ELC060&quot;: [76613, 76611, 93252, 93251, 76608]}">
+<input type="hidden" class="hidden" name="country" value="145">
+<input type="hidden" class="hidden" name="has_geoblocking" value="True">
+<input type="hidden" class="hidden" name="has_subscriptions" value="True">
+<input type="hidden" class="hidden" name="identifier" value="0jo05a8heyo6p0324x84h1be66xn3uhn">
+<input type="hidden" class="hidden" name="new_search" value="False">
+
+<input type="hidden" class="hidden" name="password_reset_url" value="/es/lc/bibliotecauv/password_reset">
+
+<!-- TODO: Remove this when  new search is ready -->
+<input type="hidden" class="hidden" name="collection_titles_search" value="/api/collection_titles_search/">
+<input type="hidden" class="hidden" name="subscribed_titles_search" value="/api/subscribed_titles_search/">
+<!-- End of TODO -->
+<input type="hidden" class="hidden" name="channel_pk" value="761">
+
+
+    <input type="hidden" class="hidden" name="show_subscribed_titles" value="true">
+
+
+    <input type="hidden" class="hidden" name="show_collection_titles" value="true">
+
+
+
+    <input type="hidden" class="hidden" name="ezproxy_return_url" value="https://ezproxy.uv.mx/sso/elibro?context=888f5699-fe78-48fd-bf44-f978dc20cab6--/es/lc/bibliotecauv/inicio/">
+
+
+
+
+
+
+
+
+
+
+<script data-name="envs" type="text/javascript">
+    sessionStorage.setItem('server_url', '');
+</script>
+      
+<!-- START HEADER -->
+<header class="header">
+  <div class="container" style="padding: 0;">
+    <div class="header-inner header-md-height">
+      <a role="button" aria-label="Menú Horizontal" class="btn-link toggle-sidebar hidden-lg-up pg pg-menu" data-toggle="horizontal-menu">
+      </a>
+      <div class="justify-content-around">
+        <!-- START NOTIFICATION LIST -->
+        <ul class="hidden-md-down notification-list no-margin hidden-sm-down b-grey b-l b-r no-style p-l-0 p-r-20">
+          <li class="p-r-10 inline">
+            <div class="dropdown">
+              <a tabindex="0" role="button" aria-label="Notificaciones" href="javascript:;" id="notification-center" class="header-icon pg pg-world" data-toggle="dropdown">
+              
+              </a>
+              <!-- START Notification Dropdown -->
+              <ul class="dropdown-menu notification-toggle" role="menu" aria-labelledby="notification-center">
+                <!-- START Notification -->
+                <div class="notification-panel">
+                  <!-- START Notification Body-->
+                  <div class="notification-body scrollable">
+                    
+                    <!-- START Notification Item-->
+                    <li role="menuitem" class="notification-item  clearfix">
+                      <div class="heading">
+                        <a role="button" aria-label="No hay eventos"  class="text-center">
+                          <i class="fa fa-calendar m-r-10"></i>
+                          No hay eventos.
+                        </a>
+                        <span class="pull-right time"></span>
+                      </div>
+                      <!-- START Notification Item Right Side-->
+                      <div class="option">
+                        <a role="button" aria-label="Notificaciones" class="mark"></a>
+                      </div>
+                      <!-- END Notification Item Right Side-->
+                    </li>
+                    <!-- END Notification Item-->
+                    
+                  </div>
+                  <!-- END Notification Body-->
+                  <!-- START Notification Footer-->
+                  <div class="notification-footer text-center"></div>
+                  <!-- START Notification Footer-->
+                </div>
+                <!-- END Notification -->
+              </ul>
+              <!-- END Notification Dropdown -->
+            </div>
+          </li>
+          <li class="p-r-10 inline">
+            <a  tabindex="0" role="button" aria-label="Obtener Enlace" class="header-icon pg pg-link"></a>
+          </li>
+          <li class="p-r-10 inline">
+            <a id="header_zoom_out" role="button" aria-label="Disminuir zoom" class="header-icon fa fa-search-minus fs-16"></a>
+          </li>
+          <li class="p-r-10 inline">
+            <a id="header_zoom_in" role="button" aria-label="Aumentar zoom" class="header-icon fa fa-search-plus fs-16"></a>
+          </li>
+          <!-- START LANGUAGE BUTTONS -->
+          <input type="hidden" name="csrfmiddlewaretoken" value="bj9Tok0RgOMLY9I5x9UZVSMLM1NOayuAOk8olGNyVV8iMihVY0ee36LZi4AJi5ie">
+          <input aria-hidden="true" type="hidden" name="i18n_url" class="hidden" value="/i18n/setlang/"/>
+          
+          
+          
+          
+          <li class="p-r-10 inline">
+            <label tabindex="0" style="cursor:pointer;margin-bottom:0px;" for="btn-es" aria-label="Botón para cambiar idioma a español" role="button">
+              <img aria-hidden="true" alt="Botón para cambiar idioma a español" style="width:18px;" src="https://df5kbf1hky40.cloudfront.net/static/library_center/img/es.png" title="español"/>
+            </label>
+            <input id="btn-es" form="language_form" style="display:none;" type="button" data-code="es" aria-label="Boton español" class="btn header-icon language-item  active "/>
+          </li>
+          
+          <li class="p-r-10 inline">
+            <label tabindex="0" style="cursor:pointer;margin-bottom:0px;" for="btn-en" aria-label="Botón para cambiar idioma a English" role="button">
+              <img aria-hidden="true" alt="Botón para cambiar idioma a English" style="width:18px;" src="https://df5kbf1hky40.cloudfront.net/static/library_center/img/en.png" title="English"/>
+            </label>
+            <input id="btn-en" form="language_form" style="display:none;" type="button" data-code="en" aria-label="Boton English" class="btn header-icon language-item "/>
+          </li>
+          
+          <li class="p-r-10 inline">
+            <label tabindex="0" style="cursor:pointer;margin-bottom:0px;" for="btn-pt" aria-label="Botón para cambiar idioma a Português" role="button">
+              <img aria-hidden="true" alt="Botón para cambiar idioma a Português" style="width:18px;" src="https://df5kbf1hky40.cloudfront.net/static/library_center/img/pt.png" title="Português"/>
+            </label>
+            <input id="btn-pt" form="language_form" style="display:none;" type="button" data-code="pt" aria-label="Boton Português" class="btn header-icon language-item "/>
+          </li>
+          
+          <form id="language_form" name="language_form" action= method="post"></form>
+          <!-- END LANGUAGE BUTTONS -->
+        </ul>
+        <!-- END NOTIFICATIONS LIST -->
+        
+          <a tabindex="0" role="button" aria-label="Abrir Búsqueda Rápida" class="search-link hidden-md-down" data-toggle="search"><i aria-hidden="true" class="pg-search"></i>Teclee en cualquier lugar para realizar una <span class="bold">búsqueda rápida</span></a>
+        
+      </div>
+      <div class="d-flex align-items-center">
+        <!-- START User Info-->
+        
+        <div class="pull-left p-r-10 fs-14 font-heading hidden-md-down">
+          <span class="semi-bold">zs20015721</span>
+        </div>
+        <div class="dropdown pull-right sm-m-r-5">
+          <button tabindex="0" class="profile-dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Mostrar menu de usuario">
+          <span class="thumbnail-wrapper d32 circular inline">
+            
+            <img alt="avatar" src="https://df5kbf1hky40.cloudfront.net/static/global/img/avatar.6732bd426c60.png"  width="32" height="32"/>
+            
+            </span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-right profile-dropdown" role="menu">
+            <li role="menuitem">
+              <a href="/es/lc/bibliotecauv/mi_perfil/editar/" class="dropdown-item">
+                <i class="fa fa-id-badge small"></i> Perfil
+              </a>
+            </li>
+            <li role="menuitem">
+              <a href="/es/lc/bibliotecauv/estanteria/" class="dropdown-item">
+                <i class="pg-inbox small"></i> Mi Estante
+              </a>
+            </li>
+            <li role="menuitem">
+              <a href="/es/lc/bibliotecauv/mis_busquedas" class="dropdown-item">
+                <i class="pg-search"></i> Mis Búsquedas
+              </a>
+            </li>
+            <li role="menuitem">
+              <a href="/es/lc/bibliotecauv/emobile/" class="dropdown-item">
+                <i class="pg-download"></i> App Móvil
+              </a>
+            </li>
+            
+            <li role="menuitem">
+              <a href="/es/lc/bibliotecauv/logout/" class="clearfix bg-master-lighter dropdown-item">
+                <span class="pull-left">Cerrar Sesión</span>
+                <span class="pull-right"><i class="pg-power"></i></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END User Info (When authenticated)-->
+        
+        <!-- END User Info (not authenticated)-->
+      </div>
+    </div>
+    <div class="header-inner justify-content-start">
+      <div class="brand inline">
+        
+        
+        <img alt="eLibro.net" class="visible-xs-block hidden-xs" src="https://df5kbf1hky40.cloudfront.net/media/cache/bf/68/bf68a2b78f8b1691de18acc1f4818ff4.png" alt="" width="" height=""
+        alt="Un logotipo del canal">
+        
+        
+      </div>
+      <h2 class="page-title">
+        
+        Universidad Veracruzana
+        
+      </h2>
+      <div class='pull-right p-t-10 visible-xs-block hidden-xs' style="right:0; position: absolute;">
+        
+          <img alt="eLibro" width="120" src="https://df5kbf1hky40.cloudfront.net/static/global/img/elibro-logoblanco.fb9cd12f0e95.png">
+        
+      </div>
+    </div>
+    <div class="menu-bar header-sm-height" data-pages-init='horizontal-menu' data-hide-extra-li="0" tabindex="0">
+      <a role="button" aria-label="Abrir barra lateral" class="btn-link toggle-sidebar hidden-lg-up pg pg-close" data-toggle="horizontal-menu">
+      </a>
+      <ul style="width: 100%;">
+        <li>
+          <a href="/es/lc/bibliotecauv/inicio/">Inicio</a>
+        </li>
+        
+        <li>
+          <a role="button" aria-label="Menú de Colecciones" href="javascript:;">
+            <span class="title">Colecciones</span>
+            <span class="arrow"></span>
+          </a>
+          <ul>
+            
+            <li>
+              <a href="/es/lc/bibliotecauv/colecciones/ELC052" class="header_child">eLibro English</a>
+            </li>
+            
+            <li>
+              <a href="/es/lc/bibliotecauv/colecciones/ELC004" class="header_child">eLibro Cátedra</a>
+            </li>
+            
+            
+          </ul>
+        </li>
+        
+        
+        <li>
+          <a href="/es/lc/bibliotecauv/titulos_adquiridos"><i class="fa fa-book small"></i> Títulos Adquiridos</a>
+        </li>
+        
+        <li>
+          <a href="/es/lc/bibliotecauv/busqueda_filtrada"><i class="fa fa-sliders"></i> Búsqueda Filtrada</a>
+        </li>
+        <li>
+          <a href="/es/lc/bibliotecauv/busqueda_avanzada"><i class="fa fa-search"></i> Búsqueda Avanzada</a>
+        </li>
+
+        
+        <li>
+          <a href="/es/lc/bibliotecauv/estanteria/"><i class="pg-inbox small"></i> Mi Estante</a>
+        </li>
+        <li>
+          <a href="/es/lc/bibliotecauv/mis_busquedas"><i class="pg-search"></i> Mis Búsquedas</a>
+        </li>
+        
+        <li>
+          <a href="/es/lc/bibliotecauv/temas/">Temas</a>
+        </li>
+        <li>
+          <a role="button" aria-label="Menú de ayuda" href="javascript:;">
+            <span class="title">Ayuda</span>
+            <span class="arrow"></span>
+          </a>
+          <ul>
+            <li>
+              <a href="http://www.elibro.com/ayuda" class="header_child text-black" target="_blank">Material de ayuda</a>
+            </li>
+            
+            <li>
+              <a href="http://www.elibro.com/marketing" class="header_child text-black" target="_blank">Marketing</a>
+            </li>
+            <li>
+              <a href="http://www.elibro.com/marketing/plataformaNueva" class="header_child text-black" target="_blank">Presentacion</a>
+            </li>
+            <li>
+              <a href="http://youtu.be/o6MwimbDzIY" class="header_child text-black" target="_blank">Video presentacion</a>
+            </li>
+            <li>
+              <a href="http://youtu.be/yiCDCjKOVq0" class="header_child text-black" target="_blank">Video búsquedas</a>
+            </li>
+            <li>
+              <a href="http://youtu.be/r3A_vxlwzeY" class="header_child text-black" target="_blank">Video herramientas</a>
+            </li>
+            
+          </ul>
+        </li>
+      </ul>
+      <a role="button" aria-label="Presione aquí para buscar" class="search-link d-flex justify-content-between align-items-center hidden-lg-up" data-toggle="search">Toque aquí para buscar <i class="pg-search float-right"></i></a>
+    </div>
+  </div>
+  
+    
+
+
+
+
+
+
+
+
+
+  
+</header>
+
+      <app-root></app-root>
+      <input type="hidden" class="hidden" name="channel_id" value="888f5699-fe78-48fd-bf44-f978dc20cab6">
+      <input type="hidden" class="hidden" name="detail_view_url" value="/es/lc/bibliotecauv/titulos/0/">
+      <input type="hidden" class="hidden" name="reader_url" value="/es/ereader/bibliotecauv/0/">
+      <input type="hidden" class="hidden" name="authenticated" value="True">
+      <input type="hidden" class="hidden" name="statics" value="https://df5kbf1hky40.cloudfront.net/static/">
+      <input type="hidden" class="hidden" name="login-url" value="/es/lc/bibliotecauv/login_usuario/?next=/es/lc/bibliotecauv/inicio/">
+      <input type="hidden" class="hidden" name="login_url_ajax" value="/es/lc/login">
+      <input type="hidden" class="hidden" name="privacy_policy" value="/es/lc/bibliotecauv/politica-privacidad/">
+      <input type="hidden" class="hidden" name="terms_of_service" value="/es/lc/bibliotecauv/terminos-de-uso/">
+      <!-- SEARCH RELATED INPUTS -->
+      <input type="hidden" class="hidden" name="advanced_search_url" value="/es/lc/bibliotecauv/busqueda_avanzada">
+      <input type="hidden" class="hidden" name="api_text_search" value="/api/titles_text_search/">
+      <input type="hidden" class="hidden" name="api_filters" value="/api/filters_search/">
+      
+      <input type="hidden" class="hidden" name="allow_quick_search" value="true">
+      
+      
+      <input type="hidden" class="hidden" name="allow_title_download" value="true">
+      
+      
+      <!-- END SEARCH RELATED INPUTS -->
+
+      <!-- END PAGE CONTAINER -->
+      <!-- BEGIN MODALS -->
+      
+      
+      <div class="modal fade slide-up disable-scroll" id="eventModal" tabindex="-1" role="dialog" style="display:none;">
+        <div class="modal-dialog">
+          <div class="modal-content-wrapper">
+            <div class="modal-content">
+              <div class="modal-header  clearfix text-left">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" aria-label="Cerrar Modal"><i class="pg-close fs-14"></i>
+                </button>
+                <h3 class="b-b b-dashed b-grey p-b-10" style="width:100%;"><i class="fa fa-calendar hint-text m-r-10"></i> <span class="semi-bold">Información </span> del Evento </h3>
+                <div class="p-b-5" id="event-title"></div>
+              </div>
+              <div class="modal-body">
+                <div class="row m-t-5 m-b-15">
+                  <div class="col-md-6">
+                    <p class="bold">Fecha de Inicio:</p>
+                    <div class="bold hint-text" id="event-start-date"></div>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="bold">Fecha de Cierre:</p>
+                    <div class="bold hint-text" id="event-end-date"></div>
+                  </div>
+                </div>
+                <div class="row m-b-15">
+                  <div class="col-md-12">
+                    <p><span class="bold">Detalle:</span></p>
+                    <p id="event-detail">
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END MODALS -->
+      <!-- BEGIN VENDOR JS -->
+      <script src="/es/jsi18n/lc/" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/feather-icons/feather.min.7a13ac2b903d.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery/jquery-1.11.1.min.8101d596b2b8.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/modernizr.custom.84abc5a8d4fe.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery-ui/jquery-ui.min.81b8c481fabe.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/tether/js/tether.min.1c4a5999a2b4.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/bootstrap/js/bootstrap.min.0827a0bdcd9a.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery/jquery-easy.6516449ed508.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery-unveil/jquery.unveil.min.ac79eb277093.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery-ios-list/jquery.ioslist.min.81ef7019c917.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery-actual/jquery.actual.min.1860686367c8.js"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/jquery-scrollbar/jquery.scrollbar.min.b958f1ebea71.js"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/select2/js/select2.full.min.da607360bcc6.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/classie/classie.a9df1cfb76ce.js"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/switchery/js/switchery.min.f9dc2553fb57.js"></script>
+      <!-- END VENDOR JS -->
+      <!-- BEGIN CORE TEMPLATE JS -->
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/js/header_csrf.4db7100b300a.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/js/notification.1297da050801.js" type="text/javascript"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/library_center/js/generic.6ec5eb1611a7.js"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/library_center/js/browser_support_v2.dad7f50baa56.js"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/js/pages.min.209ab3e1b14e.js"></script>
+      <script src="https://df5kbf1hky40.cloudfront.net/static/global/plugins/sliderpro/js/jquery.sliderPro.min.2e8a0fe71745.js"></script>
+      
+      <script data-name="uid" type="text/javascript">
+        sessionStorage.setItem('uid', 2293479);
+        sessionStorage.setItem('user_name', "zs20015721");
+        sessionStorage.setItem('user_email', 'zs20015721@bibliotecauv.com');
+        
+        
+        
+          sessionStorage.setItem('photo', "https://df5kbf1hky40.cloudfront.net/static/global/img/avatar.6732bd426c60.png");
+        
+      </script>
+      
+      <!--START ANGULAR BUNDLE -->
+      <script type="text/javascript" src="https://d2mtmueau1c6o2.cloudfront.net/12.2/polyfills.3b1aef2fbbedbf7f3808.bundle.js" defer="defer"></script>
+      <script type="text/javascript" src="https://d2mtmueau1c6o2.cloudfront.net/12.2/vendor.3b1aef2fbbedbf7f3808.bundle.js" defer="defer"></script>
+      <script type="text/javascript" src="https://d2mtmueau1c6o2.cloudfront.net/12.2/main.3b1aef2fbbedbf7f3808.bundle.js" defer="defer"></script>
+<link type="text/css" href="https://d2mtmueau1c6o2.cloudfront.net/12.2/styles.css" rel="stylesheet" defer="defer"/>
+      <!-- END CORE TEMPLATE JS -->
+      <!-- BEGIN PAGE LEVEL JS -->
+      <!-- END PAGE LEVEL JS -->
+      <script type="text/javascript">
+        $('app-root').css('height', 'calc(100% - ' + $('body > .header').height() + 'px)');
+      </script>
+      
+    </body>
+</html>
