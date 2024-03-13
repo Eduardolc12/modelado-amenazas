@@ -341,6 +341,9 @@
               ]
             },
             "id": "b5f0162d-48aa-410f-a74b-6d828bab2eae",
+            "labels": [
+              "\nWeb Request"
+            ],
             "source": {
               "cell": "f133b1de-0746-4808-887f-51926864e2be"
             },
@@ -352,9 +355,6 @@
                 "x": 440,
                 "y": 260
               }
-            ],
-            "labels": [
-              "\nWeb Request"
             ]
           },
           {
@@ -417,6 +417,9 @@
               ]
             },
             "id": "e2a282ff-cad9-491d-8c27-6faa29ed1089",
+            "labels": [
+              "Web Response"
+            ],
             "source": {
               "cell": "263889de-930c-4c8e-90c1-7ff207fe6942"
             },
@@ -440,9 +443,6 @@
                 "x": 620,
                 "y": 190
               }
-            ],
-            "labels": [
-              "Web Response"
             ]
           },
           {
@@ -505,6 +505,9 @@
               ]
             },
             "id": "5536c118-51f6-4807-930d-95ed68e6a71c",
+            "labels": [
+              "Web Request"
+            ],
             "source": {
               "cell": "61a5b43e-7241-48b9-b17c-8ee302617e08"
             },
@@ -516,9 +519,6 @@
                 "x": 680,
                 "y": 290
               }
-            ],
-            "labels": [
-              "Web Request"
             ]
           },
           {
@@ -535,6 +535,9 @@
               "hasOpenThreats": false
             },
             "id": "adef6b2e-5bd2-4e85-8d0b-83575dc64edb",
+            "labels": [
+              "Lee web app config"
+            ],
             "source": {
               "cell": "263889de-930c-4c8e-90c1-7ff207fe6942"
             },
@@ -546,9 +549,6 @@
                 "x": 540,
                 "y": 450
               }
-            ],
-            "labels": [
-              "Lee web app config"
             ]
           },
           {
@@ -913,8 +913,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "61a5b43e-7241-48b9-b17c-8ee302617e08",
             "zIndex": 22,
+            "id": "61a5b43e-7241-48b9-b17c-8ee302617e08",
             "data": {
               "type": "tm.Actor",
               "name": "Bibliotecario",
