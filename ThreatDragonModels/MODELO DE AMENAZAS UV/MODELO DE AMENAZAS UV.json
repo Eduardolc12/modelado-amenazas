@@ -1102,45 +1102,6 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "f3cde6d7-1b8c-4154-9ac5-3beb92b30c6c",
-            "source": {
-              "cell": "e92091ee-a771-487c-8819-35dd36bbe89b"
-            },
-            "target": {
-              "cell": "759e4d88-cb96-45ba-b943-3c8050c62aa0"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
                 "stroke": "red",
                 "strokeWidth": 2.5,
                 "targetMarker": {
@@ -1388,6 +1349,60 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "906f6b28-51aa-4c6c-9506-c40c1f4ed3ab",
+                  "title": "Nueva amenaza STRIDE",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Introduzca una descripción para esta amenaza",
+                  "mitigation": "Introduzca la mitigación o prevención para esta amenaza",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 0,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "f3cde6d7-1b8c-4154-9ac5-3beb92b30c6c",
+            "source": {
+              "cell": "e92091ee-a771-487c-8819-35dd36bbe89b"
+            },
+            "target": {
+              "cell": "759e4d88-cb96-45ba-b943-3c8050c62aa0"
+            }
+          },
+          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -1401,6 +1416,9 @@
               "hasOpenThreats": false
             },
             "id": "b56fbfc7-428f-4dfd-8032-98c92835b814",
+            "labels": [
+              "Usuario autenticado resultado"
+            ],
             "source": {
               "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
             },
@@ -1412,9 +1430,6 @@
                 "x": 550,
                 "y": 130
               }
-            ],
-            "labels": [
-              "Usuario autenticado resultado"
             ]
           },
           {
@@ -1669,6 +1684,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Eduardo Lopez Chacon",
-    "threatTop": 40
+    "threatTop": 41
   }
 }
