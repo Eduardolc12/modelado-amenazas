@@ -130,51 +130,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "ad285198-b4bd-4dd8-bc37-4e460e9538f7",
-            "source": {
-              "cell": "826aa314-1bdd-4865-ab6a-2f6d6f89dc7c"
-            },
-            "target": {
-              "cell": "263889de-930c-4c8e-90c1-7ff207fe6942"
-            },
-            "vertices": [
-              {
-                "x": 680,
-                "y": 365
-              }
-            ]
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -612,6 +567,66 @@
               {
                 "x": 690,
                 "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "62285aaf-8f85-4057-bc95-af5337b26c03",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering / Manipulación",
+                  "description": "Esta amenaza consiste en modificar de manera maliciosa datos persistentes, como registros un ataquen,un atacante podría modificar maliciosamente datos persistentes o alterar datos en tránsito",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 42,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "ad285198-b4bd-4dd8-bc37-4e460e9538f7",
+            "source": {
+              "cell": "826aa314-1bdd-4865-ab6a-2f6d6f89dc7c"
+            },
+            "target": {
+              "cell": "263889de-930c-4c8e-90c1-7ff207fe6942"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 365
               }
             ]
           },
@@ -1684,6 +1699,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Eduardo Lopez Chacon",
-    "threatTop": 41
+    "threatTop": 42
   }
 }
