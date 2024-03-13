@@ -1099,27 +1099,6 @@
             ]
           },
           {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "b56fbfc7-428f-4dfd-8032-98c92835b814",
-            "source": {
-              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
-            },
-            "target": {
-              "cell": "759e4d88-cb96-45ba-b943-3c8050c62aa0"
-            }
-          },
-          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1218,6 +1197,9 @@
               ]
             },
             "id": "cb65844c-5125-49c3-a260-3844a6c8ebf1",
+            "labels": [
+              "Web Response"
+            ],
             "source": {
               "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
             },
@@ -1233,9 +1215,6 @@
                 "x": 130,
                 "y": 130
               }
-            ],
-            "labels": [
-              "Web Response"
             ]
           },
           {
@@ -1298,6 +1277,9 @@
               ]
             },
             "id": "f449dff9-c0de-4fbb-b6e3-32ae06603c0a",
+            "labels": [
+              "Web Request"
+            ],
             "source": {
               "cell": "dfa1f1f3-51f1-4635-8f04-1e3ad91ec63d"
             },
@@ -1309,9 +1291,6 @@
                 "x": 230,
                 "y": 210
               }
-            ],
-            "labels": [
-              "Web Request"
             ]
           },
           {
@@ -1392,6 +1371,9 @@
               "hasOpenThreats": false
             },
             "id": "2acd54a6-2afa-465d-b5a9-f6896e8d735a",
+            "labels": [
+              "Vistas "
+            ],
             "source": {
               "cell": "92866a74-9a30-421c-a16a-b4fcb32d4049"
             },
@@ -1403,9 +1385,36 @@
                 "x": 250,
                 "y": 260
               }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Usuario autenticado resultado",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "b56fbfc7-428f-4dfd-8032-98c92835b814",
+            "source": {
+              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
+            },
+            "target": {
+              "cell": "759e4d88-cb96-45ba-b943-3c8050c62aa0"
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 130
+              }
             ],
             "labels": [
-              "Vistas "
+              "Usuario autenticado resultado"
             ]
           },
           {
@@ -1604,30 +1613,6 @@
             "data": {
               "type": "tm.Text",
               "name": "usuario \nautentificado",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 442,
-              "y": 60
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "usuario \nautentificado resultado"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 18,
-            "id": "7b8c3a33-7dca-444f-a36c-25d11043d681",
-            "data": {
-              "type": "tm.Text",
-              "name": "usuario \nautentificado resultado",
               "hasOpenThreats": false
             }
           },
