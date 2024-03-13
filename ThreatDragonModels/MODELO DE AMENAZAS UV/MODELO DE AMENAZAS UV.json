@@ -1210,51 +1210,6 @@
               "protocol": "",
               "threats": []
             },
-            "id": "cb65844c-5125-49c3-a260-3844a6c8ebf1",
-            "source": {
-              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
-            },
-            "target": {
-              "cell": "dfa1f1f3-51f1-4635-8f04-1e3ad91ec63d"
-            },
-            "vertices": [
-              {
-                "x": 190,
-                "y": 96
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
             "id": "f449dff9-c0de-4fbb-b6e3-32ae06603c0a",
             "source": {
               "cell": "dfa1f1f3-51f1-4635-8f04-1e3ad91ec63d"
@@ -1294,6 +1249,54 @@
                 "x": 250,
                 "y": 260
               }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Response",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "cb65844c-5125-49c3-a260-3844a6c8ebf1",
+            "source": {
+              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
+            },
+            "target": {
+              "cell": "dfa1f1f3-51f1-4635-8f04-1e3ad91ec63d"
+            },
+            "vertices": [
+              {
+                "x": 190,
+                "y": 96
+              }
+            ],
+            "labels": [
+              "Web Response"
             ]
           },
           {
@@ -1351,8 +1354,8 @@
                 "text": "Usuario"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1366,9 +1369,23 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "3ea4f787-03fb-48cc-80e4-3dae85c8d601",
+                  "title": "Nueva amenaza STRIDE",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing / Spoofing",
+                  "description": "Esta amenaza implica el uso fraudulento de las credenciales de otro usuario, como su nombre de usuario y contraseña, con el objetivo de acceder a recursos o servicios protegidos. Un atacante podría acceder y utilizar las credenciales de otro usuario, como el nombre de usuario y la contraseña",
+                  "mitigation": "Esta amenaza puede mitigarse mediante la implementación de medidas de autenticación robustas, como la autenticación multifactor (por ejemplo, combinando contraseña con un código enviado al teléfono móvil del usuario) y la detección de comportamiento anómalo para identificar intentos de acceso no autorizados.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1410,30 +1427,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 118,
-              "y": 49
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Web Renponse"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 14,
-            "id": "acfdedb5-d0e0-4e3a-a2fa-9104901824cb",
-            "data": {
-              "type": "tm.Text",
-              "name": "Web Renponse",
-              "hasOpenThreats": false
             }
           },
           {
@@ -1585,6 +1578,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Eduardo Lopez Chacon",
-    "threatTop": 24
+    "threatTop": 25
   }
 }
