@@ -964,8 +964,8 @@
                 "text": "Controlador web"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -979,12 +979,26 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "4487bbcd-547d-47f5-9efe-7ae31a9acbc3",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering / Manipulación",
+                  "description": "Esta amenaza consiste en modificar de manera maliciosa datos persistentes, como registros en una base de datos, o alterar datos en tránsito entre dos computadoras a través de una red abierta. Un atacante podría modificar maliciosamente datos persistentes o alterar datos en tránsito, lo que le permitiría manipular información crítica, como la modificación de registros en una base de datos o la interceptación",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1001,8 +1015,8 @@
                 "text": "Proceso de login"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1016,62 +1030,27 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "93dd97ea-50c9-4b33-86fb-b894141da239",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Esta amenaza consiste en modificar de manera maliciosa datos persistentes, como registros Un atacante podría modificar maliciosamente datos presentes para el proceso de login o alterar datos en tránsito, ",
+                  "mitigation": " Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 38,
+                  "score": ""
+                }
+              ]
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "146cc0bc-ef33-4721-8116-7064e8c32359",
-            "source": {
-              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
-            },
-            "target": {
-              "cell": "759e4d88-cb96-45ba-b943-3c8050c62aa0"
-            },
-            "vertices": [
-              {
-                "x": 400,
-                "y": 200
-              },
-              {
-                "x": 450,
-                "y": 220
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1183,79 +1162,8 @@
             "shape": "flow",
             "attrs": {
               "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "f449dff9-c0de-4fbb-b6e3-32ae06603c0a",
-            "source": {
-              "cell": "dfa1f1f3-51f1-4635-8f04-1e3ad91ec63d"
-            },
-            "target": {
-              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
-            },
-            "vertices": [
-              {
-                "x": 230,
-                "y": 210
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "2acd54a6-2afa-465d-b5a9-f6896e8d735a",
-            "source": {
-              "cell": "92866a74-9a30-421c-a16a-b4fcb32d4049"
-            },
-            "target": {
-              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 260
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "targetMarker": {
                   "name": "block"
                 },
@@ -1275,12 +1183,39 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isBidirectional": false,
               "isEncrypted": false,
               "isPublicNetwork": false,
               "protocol": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "fe0b4960-f2ca-4f76-b3f7-70b86a0e2317",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Esta amenaza consiste en modificar de manera maliciosa datos persistentes, como registros en una base de datos, o alterar datos en tránsito Un atacante podría modificar maliciosamente datos persistentes o alterar datos en tránsito, lo que le permitiría manipular información crítica, ",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                },
+                {
+                  "id": "e9f2906c-af58-47dc-ab90-bb3f362d970e",
+                  "title": "Divulgación de información",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure / Brecha de información",
+                  "description": "Esta amenaza tiene como objetivo acceder y revelar información sensible o confidencial sin autorización, ya sea leyendo archivos a los que no se tiene acceso o interceptando datos en tránsito. \n Un atacante podría acceder a información confidencial de forma no autorizada, ya sea leyendo archivos a los que no tiene acceso o interceptando y leyendo datos en tránsito entre dos sistemas.",
+                  "mitigation": "Para mitigar esta amenaza, se deben implementar controles de acceso y cifrado adecuados para proteger los datos tanto en reposo como en tránsito, además de emplear técnicas de detección de intrusiones para identificar intentos de acceso no autorizados y auditorías regulares para supervisar el acceso a la información.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                }
+              ]
             },
             "id": "cb65844c-5125-49c3-a260-3844a6c8ebf1",
             "source": {
@@ -1293,10 +1228,184 @@
               {
                 "x": 190,
                 "y": 96
+              },
+              {
+                "x": 130,
+                "y": 130
               }
             ],
             "labels": [
               "Web Response"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Web Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "f7f77c47-9598-4af6-9033-2b79447d9a53",
+                  "title": "Maniṕulación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Un atacante podría modificar maliciosamente datos persistentes o alterar datos en tránsito, lo que le permitiría manipular información crítica, como la modificación de registros",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                },
+                {
+                  "id": "2e125fbb-404b-42bb-981a-67846bee1ad6",
+                  "title": "Divulgación de información",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure / Brecha de información",
+                  "description": "Esta amenaza tiene como objetivo acceder y revelar información sensible o confidencial sin autorización. Un atacante podría acceder a información confidencial de forma no autorizada, ya sea leyendo archivos a los que no tiene acceso o interceptando y leyendo datos en tránsito entre dos sistemas.",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "f449dff9-c0de-4fbb-b6e3-32ae06603c0a",
+            "source": {
+              "cell": "dfa1f1f3-51f1-4635-8f04-1e3ad91ec63d"
+            },
+            "target": {
+              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 210
+              }
+            ],
+            "labels": [
+              "Web Request"
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "ca6ae015-124e-4b2a-a914-aa0a4a87784b",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Esta amenaza consiste en modificar de manera maliciosa datos persistentes, un atacante podría modificar maliciosamente datos persistentes o alterar datos en tránsito, lo que le permitiría manipular información crítica, como la modificación de registros en una base de datos o la interceptación",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "146cc0bc-ef33-4721-8116-7064e8c32359",
+            "source": {
+              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
+            },
+            "target": {
+              "cell": "759e4d88-cb96-45ba-b943-3c8050c62aa0"
+            },
+            "vertices": [
+              {
+                "x": 400,
+                "y": 200
+              },
+              {
+                "x": 450,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Vistas ",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "id": "2acd54a6-2afa-465d-b5a9-f6896e8d735a",
+            "source": {
+              "cell": "92866a74-9a30-421c-a16a-b4fcb32d4049"
+            },
+            "target": {
+              "cell": "8212da69-b8a5-4cb7-86bb-50ec9e4c931d"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 260
+              }
+            ],
+            "labels": [
+              "Vistas "
             ]
           },
           {
@@ -1313,11 +1422,13 @@
                 "text": "Base de datos"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1331,13 +1442,40 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "c6d62cb8-e7ee-46da-a247-d7a943007c89",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Un atacante podría modificar maliciosamente datos persistentes o alterar datos lo que le permitiría manipular información crítica, como la modificación de registros en una base de datos o la interceptación",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 36,
+                  "score": ""
+                },
+                {
+                  "id": "98be43d0-0689-4708-a541-e6035ae05046",
+                  "title": "Denegación de servicio",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service / Denegación de servicio",
+                  "description": "Un atacante intentaría interrumpir o limitar el acceso legítimo de los usuarios a un servicio, como un sitio web o una aplicación, mediante la saturación del sistema con un alto volumen de tráfico o la explotación de vulnerabilidades para hacer que el servicio sea inaccesible.",
+                  "mitigation": "La mitigación de esta amenaza implica implementar medidas de seguridad a nivel de red, como firewalls y sistemas de prevención de intrusiones (IPS), así como servicios de mitigación de ataques DDoS para filtrar y bloquear el tráfico malicioso y mantener la disponibilidad del servicio.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 37,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1402,11 +1540,13 @@
                 "text": "Páginas web\n en disco"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1420,61 +1560,27 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 130,
-              "y": 200
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Web Request"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 15,
-            "id": "3fed7e44-705d-4f03-9717-8618fc69a358",
-            "data": {
-              "type": "tm.Text",
-              "name": "Web Request",
-              "hasOpenThreats": false
-            }
-          },
-          {
-            "position": {
-              "x": 287.5,
-              "y": 240
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "vistas"
-              }
-            },
-            "visible": true,
-            "shape": "td-text-block",
-            "zIndex": 16,
-            "id": "92ac9e96-e93a-4aac-ac24-2234b62bd448",
-            "data": {
-              "type": "tm.Text",
-              "name": "vistas",
-              "hasOpenThreats": false
+              "threats": [
+                {
+                  "id": "e7a3875c-e804-48e6-a9bb-6c4ae1f02698",
+                  "title": "Manipulación",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Esta amenaza consiste en modificar de manera maliciosa datos persistentes, un atacante podría modificar maliciosamente datos persistentes o alterar datos en tránsito, lo que le permitiría manipular información crítica, como la modificación de registros",
+                  "mitigation": "Para mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                }
+              ]
             }
           },
           {
@@ -1578,6 +1684,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Eduardo Lopez Chacon",
-    "threatTop": 25
+    "threatTop": 40
   }
 }
