@@ -1555,10 +1555,10 @@
               "threats": [
                 {
                   "id": "3ea4f787-03fb-48cc-80e4-3dae85c8d601",
-                  "title": "Nueva amenaza STRIDE",
+                  "title": " spoofing",
                   "status": "Open",
                   "severity": "Low",
-                  "type": "Spoofing / Spoofing",
+                  "type": "Spoofing",
                   "description": "Esta amenaza implica el uso fraudulento de las credenciales de otro usuario, como su nombre de usuario y contraseña, con el objetivo de acceder a recursos o servicios protegidos. Un atacante podría acceder y utilizar las credenciales de otro usuario, como el nombre de usuario y la contraseña",
                   "mitigation": "Esta amenaza puede mitigarse mediante la implementación de medidas de autenticación robustas, como la autenticación multifactor (por ejemplo, combinando contraseña con un código enviado al teléfono móvil del usuario) y la detección de comportamiento anómalo para identificar intentos de acceso no autorizados.",
                   "modelType": "STRIDE",
