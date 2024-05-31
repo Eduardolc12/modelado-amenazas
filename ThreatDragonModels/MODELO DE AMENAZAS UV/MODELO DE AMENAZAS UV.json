@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 297.5,
-              "y": 130
+              "x": 520,
+              "y": 200
             },
             "size": {
               "width": 112.5,
@@ -67,8 +67,8 @@
           },
           {
             "position": {
-              "x": 430,
-              "y": 310
+              "x": 652.5,
+              "y": 380
             },
             "size": {
               "width": 150,
@@ -115,10 +115,10 @@
                 },
                 {
                   "id": "2d33fd1b-eb7e-47e6-bf44-d2c3d7db4f55",
-                  "title": "Nueva amenaza STRIDE",
+                  "title": "MANIPULACIÓN ",
                   "status": "Open",
                   "severity": "Medium",
-                  "type": "Tampering / Manipulación",
+                  "type": "Tampering",
                   "description": "amenaza consiste en modificar de manera maliciosa datos persistentes, como registros en una base de datos, o alterar datos en tránsito entre dos computadoras a través de una red abierta, como Internet, con el fin de manipular la información de manera indebida o perjudicial.\nUn atacante podría modificar maliciosamente datos persistentes o alterar datos de la pagina , lo que le permitiría manipular información crítica",
                   "mitigation": "mitigar esta amenaza, es fundamental implementar controles de integridad de datos, como firmas digitales o funciones hash, para detectar y prevenir modificaciones no autorizadas en los datos, además de utilizar conexiones seguras y cifrado de extremo a extremo para proteger los datos en tránsito.",
                   "modelType": "STRIDE",
@@ -232,20 +232,20 @@
             },
             "vertices": [
               {
-                "x": 353.75,
-                "y": 340
+                "x": 576.25,
+                "y": 410
               },
               {
-                "x": 320,
-                "y": 340
+                "x": 542.5,
+                "y": 410
               },
               {
-                "x": 260,
-                "y": 310
+                "x": 482.5,
+                "y": 380
               },
               {
-                "x": 320,
-                "y": 210
+                "x": 542.5,
+                "y": 280
               }
             ]
           },
@@ -307,8 +307,8 @@
             },
             "vertices": [
               {
-                "x": 440,
-                "y": 260
+                "x": 662.5,
+                "y": 330
               }
             ]
           },
@@ -383,20 +383,20 @@
             },
             "vertices": [
               {
-                "x": 512.5,
-                "y": 240
+                "x": 735,
+                "y": 310
               },
               {
-                "x": 540,
-                "y": 200
+                "x": 762.5,
+                "y": 270
               },
               {
-                "x": 560,
-                "y": 190
+                "x": 782.5,
+                "y": 260
               },
               {
-                "x": 620,
-                "y": 190
+                "x": 842.5,
+                "y": 260
               }
             ]
           },
@@ -471,8 +471,8 @@
             },
             "vertices": [
               {
-                "x": 680,
-                "y": 290
+                "x": 902.5,
+                "y": 360
               }
             ]
           },
@@ -501,8 +501,8 @@
             },
             "vertices": [
               {
-                "x": 540,
-                "y": 450
+                "x": 762.5,
+                "y": 520
               }
             ]
           },
@@ -561,12 +561,12 @@
             },
             "vertices": [
               {
-                "x": 650,
-                "y": 430
+                "x": 872.5,
+                "y": 500
               },
               {
-                "x": 690,
-                "y": 430
+                "x": 912.5,
+                "y": 500
               }
             ]
           },
@@ -625,15 +625,19 @@
             },
             "vertices": [
               {
-                "x": 680,
-                "y": 365
+                "x": 960,
+                "y": 470
+              },
+              {
+                "x": 902.5,
+                "y": 435
               }
             ]
           },
           {
             "position": {
-              "x": 760,
-              "y": 430
+              "x": 982.5,
+              "y": 500
             },
             "size": {
               "width": 120,
@@ -715,8 +719,8 @@
           },
           {
             "position": {
-              "x": 520,
-              "y": 510
+              "x": 400,
+              "y": 640
             },
             "size": {
               "width": 120,
@@ -772,8 +776,8 @@
           },
           {
             "position": {
-              "x": 222.5,
-              "y": 470
+              "x": 445,
+              "y": 540
             },
             "size": {
               "width": 120,
@@ -813,8 +817,8 @@
           },
           {
             "position": {
-              "x": 342.5,
-              "y": 440
+              "x": 565,
+              "y": 510
             },
             "size": {
               "width": 112.5,
@@ -837,8 +841,8 @@
           },
           {
             "position": {
-              "x": 580,
-              "y": 410
+              "x": 802.5,
+              "y": 480
             },
             "size": {
               "width": 112.5,
@@ -861,8 +865,8 @@
           },
           {
             "position": {
-              "x": 692.5,
-              "y": 330
+              "x": 915,
+              "y": 400
             },
             "size": {
               "width": 112.5,
@@ -885,8 +889,8 @@
           },
           {
             "position": {
-              "x": 151.25,
-              "y": 240
+              "x": 373.75,
+              "y": 310
             },
             "size": {
               "width": 112.5,
@@ -909,8 +913,8 @@
           },
           {
             "position": {
-              "x": 693,
-              "y": 130
+              "x": 915.5,
+              "y": 200
             },
             "size": {
               "width": 112.5,
